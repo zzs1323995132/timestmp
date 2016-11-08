@@ -16,6 +16,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Created by zhouzhangshan on 2016/10/1.
+ */
 public class MainActivity extends AppCompatActivity {
     private TextView text3;
 
