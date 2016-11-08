@@ -2,5 +2,5 @@
     <string name="app_name">timestamp</string>
     <string name="btn_activity_main_ctimestamp"> 获取当前时间戳</string>
     <string name="btn_activity_main_comeparetime"> 距离当今时间差</string>
-    <string name="btn_activity_main_comeparecur">时间差</string>
+    <string name="btn_activity_main_comeparecur">时间z差</string>
 </resources>
