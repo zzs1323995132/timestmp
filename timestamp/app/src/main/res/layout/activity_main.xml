@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.zzs.timestamp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_activity_main_ctimestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="@string/btn_activity_main_ctimestamp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_activity_main_comeparetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="距离当今时间差"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_activity_main_comeparecur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="时间差"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_activity_main_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="时间差"
+        android:textSize="20sp" />
+</LinearLayout>
