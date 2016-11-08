@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:onClick="onClick"
-        android:text="距离当今时间差"
+        android:text="@string/btn_activity_main_comeparetime"
         android:textSize="20sp" />
 
     <Button
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:onClick="onClick"
-        android:text="时间差"
+        android:text="@string/btn_activity_main_comeparecur"
         android:textSize="20sp" />
 
     <TextView
